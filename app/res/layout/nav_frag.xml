@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/drawer_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/L1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="#E1E1E1"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/list_selected"
+                    android:drawableLeft="@drawable/user11"
+                    android:drawablePadding="20dp"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="12dp"
+                    android:text="MePro"
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+
+            <!--<TextView
+                android:id="@+id/Configuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selected"
+                android:clickable="true"
+                android:drawableLeft="@drawable/configuration"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="12dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:text="Configuration"
+                android:textColor="@color/drawer_text"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/iv_logout_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/text_grey_color"
+                android:visibility="gone" />-->
+
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selected"
+                android:clickable="true"
+                android:drawableLeft="@drawable/drawer_logout"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="12dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:text="Logout"
+                android:textColor="@color/drawer_text"
+                android:textSize="20dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/text_grey_color" />
+
+            <TextView
+                android:id="@+id/delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selected"
+                android:clickable="true"
+                android:drawableLeft="@drawable/drawer_delete"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="12dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:text="Delete"
+                android:textColor="@color/drawer_text"
+                android:textSize="20dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selected"
+                android:clickable="true"
+                android:drawableLeft="@drawable/drawer_account"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="12dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:text="Share"
+                android:textColor="@color/drawer_text"
+                android:textSize="20dp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/text_grey_color" />
+
+            <TextView
+                android:id="@+id/account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/list_selected"
+                android:clickable="true"
+                android:drawableLeft="@drawable/drawer_help"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="12dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:text="Help"
+                android:textColor="@color/drawer_text"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/text_grey_color" />
+
+            <TextView
+                android:id="@+id/deleteFeature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/list_selected"
+                android:clickable="true"
+                android:drawableLeft="@drawable/drawer_help"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="12dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="12dp"
+                android:paddingTop="12dp"
+                android:text="Delete Feature"
+                android:textColor="@color/drawer_text"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
